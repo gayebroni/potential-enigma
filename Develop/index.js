@@ -50,6 +50,8 @@ inquirer.prompt([
 
 
 // second step: we will take that information and generate our function. 
+
+
 //third step: take the output off the generateMarkdown to enter.
 
 //console.log("Hello Gaye!")
