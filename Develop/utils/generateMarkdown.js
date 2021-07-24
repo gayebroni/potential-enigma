@@ -14,30 +14,15 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   return `
 
-  ##${data?.title}
-
-  ### Description
-  ${data?.descrip}
-
-  ### Table of Contents
-  ${data?.toc} 
-
-  ###Installation Requirements
-  ${data?.installSteps}
-
-  ### License
-  ${includeLicenses}
-
-  ### Badges
+  ##${data.title}
+##${data.license}
+  ##${data.description}
 
 
-  ### Questions
-  To keep connected with future projects, please send an email to ${email}. Thank you. My username is ${gitUsername}!';
 
-  
-  
 
-`;
+
+`
 }
 
 module.exports = generateMarkdown;
