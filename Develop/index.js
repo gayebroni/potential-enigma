@@ -13,7 +13,7 @@ function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
 function init() { 
-console.log("Hello Gaye!")
+//console.log("Hello Gaye!")
 var testData = {
     title: "Professional README File"
 }

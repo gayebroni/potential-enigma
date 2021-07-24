@@ -16,6 +16,27 @@ function generateMarkdown(data) {
 
   ##${data?.title}
 
+  ### Description
+  ${data?.descrip}
+
+  ### Table of Contents
+  ${data?.toc} 
+
+  ###Installation Requirements
+  ${data?.installSteps}
+
+  ### License
+  ${includeLicenses}
+
+  ### Badges
+
+
+  ### Questions
+  To keep connected with future projects, please send an email to ${email}. Thank you. My username is ${gitUsername}!';
+
+  
+  
+
 `;
 }
 
