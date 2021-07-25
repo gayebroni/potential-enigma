@@ -12,17 +12,26 @@ const questions = [
       "Please add a description of your project which includes what is it about, why did you create it, who is it for.",
     name: "description",
   },
+
+  {
+    message:
+      "Please list any required installations and provide the appropriate code to install.",
+    input: "installation",
+  },
+
   {
     message: "Choose a license:",
     name: "license",
     type: "list",
     choices: ["MIT", "APACHE", "BOOST"],
   },
+
+  {},
 ];
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-  fs.writeFile(fileName, data, () => {})
+  fs.writeFile(fileName, data, () => {});
 }
 
 // TODO: Create a function to initialize app
