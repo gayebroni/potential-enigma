@@ -15,10 +15,11 @@ function generateMarkdown(data) {
   return `
 
   ##${data.title}
-##${data.license}
+
+
   ##${data.description}
 
-
+  ##${data.license}
 
 `;
 }
