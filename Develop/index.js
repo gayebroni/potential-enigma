@@ -6,7 +6,14 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
-  { message: "What is the title of your project?", name: "title" },
+  { 
+    //if need to validate, need to add if else statement
+    message: 
+    "What is the title of your project? (Required)", 
+  name: "title" 
+  
+
+},
   {
     message:
       "Please add a description of your project which includes what is it about, why did you create it, who is it for.",
@@ -19,11 +26,10 @@ const questions = [
     name: "installation",
   },
 
-{
-  message:
-  "Please provide the user instructions for your app.",
-  name: "instructions",
-},
+  {
+    message: "Please provide the user instructions for your app.",
+    name: "instructions",
+  },
 
   {
     message: "Choose a license from the following choices:",
@@ -32,11 +38,16 @@ const questions = [
     choices: ["MIT", "APACHE", "BOOST"],
   },
 
-  {
-    
+  {  message: "Please add the GitHub Link to your project.",
+  name: "githublink",
 
-  }
+  },
 
+{ 
+  message: "Please enter your preferred email to contact you.",
+  name: "email",
+},
+  
 ];
 
 // TODO: Create a function to write README file

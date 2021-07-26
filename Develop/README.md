@@ -1,14 +1,23 @@
 
 
-  
-  ##gaye's project
+  ##TITLE
+  ##my project
 
+  ##**DESCRIPTION**
+  ###dadfff who 
 
-  ###fsdia  ID ONT  KNOW
+  ##**INSTALLATIONS REQUIRED**
+  ###kdfjdkf
 
-  ###OKAY WILL DO
+  ##**INSTRUCTIONS**
+  ###fjkdf
 
-  ###alright will next time
-
+  ##**LICENSES (optional)**
   ###BOOST
+
+  ##**GitHub Link to Project**
+  ###[GitHub Link](http://github.com/whey)
+
+  ##**Contact Information
+  gaa;a
 
