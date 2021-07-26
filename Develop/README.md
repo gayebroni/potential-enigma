@@ -1,24 +1,23 @@
 
 
-  ##**TITLE:**
-  return
-  ##Gaye's Project
+  ##**TITLE OF PROJECT:** 
+  ##README.md Generator
 
-  ##**DESCRIPTION:**
-  ###This project will enable users of Github to easily generate a README.md file with important information to help readers understand their code. 
+  ##**DESCRIPTION:**  
+  ###This will assist users in GitHub to create a professional README.md file to provide important information about their project to users. 
 
-  ##**INSTALLATIONS REQUIRED:**
-  ###To use this generator, it will be necessary to install the package "Inquirer'. 
+  ##**INSTALLATIONS REQUIRED:** 
+  ###To run the project, the npm package "inquirer" will need to be installed. 
 
-  ##**INSTRUCTIONS:**
-  ###The user will be prompted with questions to answer re their project and contact information and necessary details to assist them to complete a README.md file.
+  ##**INSTRUCTIONS:** 
+  ### Once the inquirer package is installed the user will be given a series of questions to answer in the order of the README file will appear. The user will also need to use 'node index.js' to initiate. 
 
-  ##**LICENSES (optional):**
-  ###BOOST
+  ##**LICENSES (optional):**  
+  ###APACHE
 
-  ###**GitHub Link to Project:**
+  ###**GitHub Link to Project:**  
   ###**[GitHub Link](http://github.com/https://github.com/gayebroni/potential-enigma)**
 
-  ###***Contact Information:**
+  ###***Contact Information:**  
   ###**gayebroni@yahoo.com**
 
