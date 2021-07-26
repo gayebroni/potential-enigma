@@ -10,7 +10,7 @@ const questions = [
     //if need to validate, need to add if else statement
     message: 
     "What is the title of your project? (Required)", 
-  name: "title" 
+  name: "title",
   
 
 },
@@ -40,7 +40,6 @@ const questions = [
 
   {  message: "Please add the GitHub Link to your project.",
   name: "githublink",
-
   },
 
 { 
