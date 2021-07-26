@@ -1,9 +1,14 @@
 
 
-  ##Gaye's Project
+  
+  ##gaye's project
 
 
-  ##a great way to create a professional REadme
+  ###fsdia  ID ONT  KNOW
 
-  ##MIT
+  ###OKAY WILL DO
+
+  ###alright will next time
+
+  ###BOOST
 

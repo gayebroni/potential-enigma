@@ -16,17 +16,27 @@ const questions = [
   {
     message:
       "Please list any required installations and provide the appropriate code to install.",
-    input: "installation",
+    name: "installation",
   },
 
+{
+  message:
+  "Please provide the user instructions for your app.",
+  name: "instructions",
+},
+
   {
-    message: "Choose a license:",
+    message: "Choose a license from the following choices:",
     name: "license",
     type: "list",
     choices: ["MIT", "APACHE", "BOOST"],
   },
 
-  {},
+  {
+    
+
+  }
+
 ];
 
 // TODO: Create a function to write README file

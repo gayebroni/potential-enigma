@@ -22,6 +22,8 @@ function generateMarkdown(data) {
 
   ###${data.installation}
 
+  ###${data.instructions}
+
   ###${data.license}
 
 `;
